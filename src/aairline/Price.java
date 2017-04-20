@@ -20,7 +20,8 @@ private String Type;
     static final double business = 500.0 ;
     static final double economy = 300.5;
     
-public String  setAirline(String r){
+
+    public String  setAirline(String r){
     return this.Airline=r; 
 }
 public String  setClass(String c){
@@ -47,6 +48,12 @@ public String getTypes(){
         this.Airline= "American Airline";
         this.Airline= "Turkish Airline";
         this.Airline= "Air France";
+        this.Class="First";
+        this.Class="Business";
+        this.Class="Economy";
+        this.Type="One-Way";
+        this.Type="Return";
+        
     }
     
     public double findPrice(){
