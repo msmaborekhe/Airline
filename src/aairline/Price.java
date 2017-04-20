@@ -9,7 +9,7 @@ private String Airline;
 private String Class;
 private String Type;  
     static final double British = 400.0;
-    static final double American = 800.0;
+    static final double American = 850.0;
     static final double France = 700.0;
     static final double Turkish = 500.0 ;
     
